@@ -1,6 +1,6 @@
 # Secure Password Generator
 
-A beginner-friendly desktop password generator built with Python and Tkinter.
+A desktop password generator built with Python and Tkinter.
 
 ## Features
 
@@ -19,22 +19,12 @@ A beginner-friendly desktop password generator built with Python and Tkinter.
 - Python 3
 - Tkinter (included with most standard Python installations)
 
-## Run
+## Usage
 
 ```bash
 python password_generator.py
 ```
 
-## What I learned
+## Security
 
-- Building a GUI with Tkinter
-- Using `BooleanVar` and `StringVar`
-- Connecting buttons to callback functions
-- Input validation with `try` / `except`
-- Working with Python's `string` and `secrets` modules
-- Reading and updating GUI state
-- Using the system clipboard from Tkinter
-
-## Security note
-
-This project uses Python's `secrets` module rather than `random` for password generation.
+Password generation uses Python's `secrets` module rather than `random`.
